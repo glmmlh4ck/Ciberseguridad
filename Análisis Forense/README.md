@@ -56,7 +56,7 @@ volatility -f memdump.mem --profile=SOversion netscan
 ## Descargas
 
 - ### Volatility:
-[Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s)
+[Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s){:target="_blank"}
 
 1. wget ...
 2. sudo apt install python3
@@ -65,10 +65,10 @@ volatility -f memdump.mem --profile=SOversion netscan
 5. python3 vol.py
 
 - ### Volatility Standalone:
-[.zip Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip)
+[Zip Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip){:target="_blank"}
 
 - ### Autopsy:
-[Tutorial - Autopsy v4.21](https://www.youtube.com/watch?v=DYMG7U7FOPU)
+[Tutorial - Autopsy v4.21](https://www.youtube.com/watch?v=DYMG7U7FOPU){:target="_blank"}
 
 1. wget https://raw.githubusercontent.com/sleuthkit/autopsy/develop/linux_macos_install_scripts/install_prereqs_ubuntu.sh
 2. chmod +x install_prereqs_ubuntu.sh

@@ -11,7 +11,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 4. [Memoria - Volatility](#volatility)
 5. [Memoria - Volatility Standalone](#standalone)
 6. [Discos - Autopsy](#autopsy)
-7. [Descargas](#instalación)
+7. [Instalación](#instalación)
 
 ---
 

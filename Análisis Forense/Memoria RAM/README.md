@@ -108,9 +108,9 @@ python3 vol.py -f <img_ram> --profile=<img_profile> procdump -p <pid> --dumpdir 
 
 <!------------------------------------- STANDALONE ------------------------------------------->
 
-> Igual que Volatility sin usar el módulo de python entre otras cosas.
-
 ## STANDALONE:
+
+> Igual que Volatility sin usar el módulo de python entre otras cosas.
 
 - Identificación del Sistema Operativo:
 ```markdown

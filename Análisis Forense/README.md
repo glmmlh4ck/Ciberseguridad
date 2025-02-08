@@ -11,7 +11,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 4. [Memoria - Volatility](#volatility)
 5. [Memoria - Volatility Standalone](#standalone)
 6. [Discos - Autopsy](#autopsy)
-7. [Instalación](#instalación)
+7. [Descargas](#descargas)
 
 ---
 
@@ -89,7 +89,7 @@ volatility -f memdump.mem --profile=SOversion netscan
 
 ---
 
-## INSTALACIÓN:
+## DESCARGAS:
 
 - ### Volatility:
 

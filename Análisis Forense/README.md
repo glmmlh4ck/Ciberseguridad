@@ -104,9 +104,15 @@ sha256sum /home/usuario/disco.img
 > FTK Imager es una herramienta gratuita de AccessData que permite:
 > - Capturar imágenes forenses de discos duros y memoria RAM.
 > - Permite vericar la integridad de las imágenes mediante hashes.
-
 > Limitaciones:
 > No realiza análisis forense avanzado; solo crea y examina las imágenes.
+
+- Volcado RAM:
+```markdown
+1. Abrir FTK Imager como administrador.
+2. Seleccionar "Capture Memory".
+3. Guardar el archivo de volcado de memoria RAM.
+```
 
 ---
 

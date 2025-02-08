@@ -5,16 +5,20 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ---
 
 ## ÍNDICE:
+> | PREVIA |
+> |-----------|
 1. [Análisis previo](#análisis-previo)
 2. [Detección de hashes](#hashes)
 > | WINDOWS |
 > |-----------|
 3. [FTK Imager](#ftk-imager)
-| LINUX |
-|-----------|
+> | LINUX |
+> |-----------|
 4. [Volatility](#volatility)
 5. [Volatility Standalone](#standalone)
 6. [Autopsy](#autopsy)
+> | DESCARGAS |
+> |-----------|
 7. [Descargas](#descargas)
 
 <!--------------------------------- ANALISIS PREVIO ----------------------------------------->

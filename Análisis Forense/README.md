@@ -58,7 +58,9 @@ volatility -f memdump.mem --profile=SOversion netscan
 - ### Volatility:
 [Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s)
 
-| [Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s)|
+| [Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s) | Columna 2 |
+|-----------|-----------|
+| Dato 1    | Dato 2    |
 
 1. wget ...
 2. sudo apt install python3

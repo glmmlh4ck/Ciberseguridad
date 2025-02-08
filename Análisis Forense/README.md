@@ -7,8 +7,8 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ## ÍNDICE:
 1. [Análisis previo](#análisis-previo)
 2. [Detección de hashes](#hashes)
-| WINDOWS |
-|-----------|
+> | WINDOWS |
+> |-----------|
 3. [FTK Imager](#ftk-imager)
 | LINUX |
 |-----------|

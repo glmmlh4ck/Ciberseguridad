@@ -12,7 +12,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 5. [Código](#codigo)
 6. [Citas](#citas)
 7. [Tablas](#tablas)
-8. [Listas de tareas](#listas-de-tareas)
+8. [Descargas](#descargas)
 
 ---
 
@@ -28,24 +28,20 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ---
 
-## Texto en negrita y cursiva
-- **Negrita**: Usa `**` o `__`.
-- *Cursiva*: Usa `*` o `_`.
-- **_Combinado_**: Usa `**_` o `__*`.
+## Descargas
 
-```markdown
-**Este texto es en negrita**
-*Este texto es en cursiva*
-**_Este texto es en negrita y cursiva_**
-```
-### Resultado:
-**Este texto es en negrita**
-*Este texto es en cursiva*
-**_Este texto es en negrita y cursiva_**
+### Volatility:
+[Volatility v3]([https://www.google.com](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s))
+
+### Volatility Standalone:
+[Standalone 2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip)
+
+### Autopsy:
+[Autopsy v4.21](https://www.youtube.com/watch?v=DYMG7U7FOPU)
 
 ---
 
-## Listas
+## Listas----------------------------------------------------------------------------
 
 ### Listas no ordenadas
 Usa `-`, `+` o `*`.
@@ -69,7 +65,7 @@ Usa números seguidos de un punto (`1.`).
 
 ---
 
-## Enlaces e Imágenes
+## Enlaces e Imágenes------------------------------------------------------------------
 
 ### Enlaces
 Crea enlaces con `[Texto](URL)`.

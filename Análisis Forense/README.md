@@ -7,12 +7,13 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ## Índice
 1. [Detección de hashes](#hashes)
 2. [Análisis de memoria - Volatility](#volatility)
-3. [Análisis de discos - Autopsy](#autopsy)
-4. [Enlaces e Imágenes](#enlaces-e-imagenes)
-5. [Código](#codigo)
-6. [Citas](#citas)
-7. [Tablas](#tablas)
-8. [Descargas](#descargas)
+3. [Análisis de memoria - Volatility Standalone](#standalone)
+4. [Análisis de discos - Autopsy](#autopsy)
+5. [Enlaces e Imágenes](#enlaces-e-imagenes)
+6. [Código](#codigo)
+7. [Citas](#citas)
+8. [Tablas](#tablas)
+9. [Descargas](#descargas)
 
 ---
 
@@ -21,6 +22,22 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ---
 
 ## Volatility
+
+---
+
+## Standalone
+
+- Identificación del Sistema Operativo:
+`volatility -f memdump.mem imageinfo`
+
+- Lista de procesos:
+`volatility -f memdump.mem --profile=SistemaOperativo pslist`
+
+- Comandos usados en CMD:
+`volatility -f memdump.mem --profile=SistemaOperativo cmdscan`
+
+- Identificación de las conexiones:
+`volatility -f memdump.mem --profile=SistemaOperativo netscan`
 
 ---
 

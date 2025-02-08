@@ -90,7 +90,7 @@ tail -f /var/log/auth.log
 
 - Volcado de discos/particiones:
 ```markdown
-sudo dd if=/dev/sda of=**<ruta_guardar.img>** bs=4M
+sudo dd if=/dev/sda of=<ruta_guardar.img> bs=4M
 ```
 
 ---
@@ -101,7 +101,7 @@ sudo dd if=/dev/sda of=**<ruta_guardar.img>** bs=4M
 
 - Verificar la integridad del volcado:
 ```markdown
-sha256sum **<ruta_img>**
+sha256sum <ruta_img>
 ```
 
 ---
@@ -135,7 +135,7 @@ sha256sum **<ruta_img>**
 
 - Capturar memoria RAM:
 ```markdown
-sudo insmod lime.ko "path=**<ruta_guardar.lime>** format=lime"
+sudo insmod lime.ko "path=<ruta_guardar.lime> format=lime"
 ```
 
 ---
@@ -149,7 +149,7 @@ volcados de RAM.
 
 - Identificación del Sistema Operativo:
 ```markdown
-python3 vol.py -f **<img_ram>** imageinfo
+python3 vol.py -f <img_ram> imageinfo
 ```
 
 - Lista de procesos:

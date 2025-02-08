@@ -31,7 +31,10 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 - Procesos activos:
 
 ```markdown
-ps aux OR ps axjf
+ps aux
+```
+```markdown
+ps axjf
 ```
 
 - Procesos de red escuchando:
@@ -39,12 +42,25 @@ ps aux OR ps axjf
 lsof -i
 ```
 
-- `ps aux OR ps axjf:`         Procesos activos.
-- `lsof -i:`                   Procesos de red escuchando.
-- `ss -tuln:`                  Conexiones de red activas.
-- `netstat -anp:`              Conexiones de red establecidas.
-- `nmap -sS localhost:`        Puertos abiertos y cerrados.
-- `tail -f /var/log/auth.log:` Archivos de Log en tiempo real.
+- Conexiones de red activas:
+```markdown
+ss -tuln
+```
+
+- Conexiones de red establecidas
+```markdown
+netstat -anp
+```
+
+- Puertos abiertos y cerrados:
+```markdown
+nmap -sS localhost
+```
+
+- Archivos de Log en tiempo real:
+```markdown
+tail -f /var/log/auth.log
+```
 
 - Capturar memoria RAM:
 

@@ -1,110 +1,21 @@
-# ANÁLISIS FORENSE
+# MEMORIA RAM
 
-En esta guía encontraremos todos los usos sobre herramientas de forense.
+En esta guía encontraremos todos las herramientas para analizar la memoria RAM.
 
 ---
 
 ## ÍNDICE:
-> | PREVIA |
-> |-----------|
-1. [Análisis previo](#análisis-previo)
-2. [Detección de hashes](#hashes)
 > | WINDOWS |
 > |-----------|
-3. [FTK Imager](#ftk-imager)
+1. [FTK Imager](#ftk-imager)
 > | LINUX |
 > |-----------|
-4. [LiME](#lime)
-5. [Volatility](#volatility)
-6. [Volatility Standalone](#standalone)
-7. [Autopsy](#autopsy)
+2. [LiME](#lime)
+3. [Volatility](#volatility)
+4. [Volatility Standalone](#standalone)
 > | DESCARGAS |
 > |-----------|
-8. [Instalación de los programas](#descargas)
-
-<!--------------------------------- ANALISIS PREVIO ----------------------------------------->
-
----
-
-## ANÁLISIS PREVIO:
-
-> | WINDOWS |
-> |-----------|
-
-- Procesos activos:
-```markdown
-Get-Process
-```
-
-- Registros de eventos:
-```markdown
-Get-EventLog
-```
-
-- Historial de comandos:
-```markdown
-et-Command
-```
-
-  
-> | LINUX |
-> |-----------|
-
-- Procesos activos:
-```markdown
-ps aux
-```
-```markdown
-ps axjf
-```
-
-- Procesos de red escuchando:
-```markdown
-lsof -i
-```
-
-- Conexiones de red activas:
-```markdown
-ss -tuln
-```
-
-- Conexiones de red establecidas
-```markdown
-netstat -anp
-```
-
-- Escaneo rápido de puertos:
-```markdown
-nmap -sS localhost
-```
-
-- Puertos detallado de puertos:
-```markdown
-nmap -A localhost
-```
-
-- Archivos de Log en tiempo real:
-```markdown
-tail -f /var/log/auth.log
-```
-
-- Volcado de discos/particiones:
-```markdown
-sudo dd if=/dev/sda of=<ruta_guardar.img> bs=4M
-```
-
----
-
-<!---------------------------------- USO DE HASHES ----------------------------------------->
-
-## HASHES:
-
-- Verificar la integridad del volcado:
-```markdown
-sha256sum <ruta_img>
-```
-
----
+5. [Instalación de los programas](#descargas)
 
 <!------------------------------------ FTK IMAGER ------------------------------------------->
 
@@ -197,6 +108,8 @@ python3 vol.py -f <img_ram> --profile=<img_profile> procdump -p <pid> --dumpdir 
 
 <!------------------------------------- STANDALONE ------------------------------------------->
 
+> Igual que Volatility sin usar el módulo de python entre otras cosas.
+
 ## STANDALONE:
 
 - Identificación del Sistema Operativo:
@@ -218,12 +131,6 @@ volatility -f <img_ram> --profile=<img_profile> cmdscan
 ```markdown
 volatility -f <img_ram> --profile=<img_profile> netscan
 ```
-
----
-
-<!--------------------------------------- AUTOPSY -------------------------------------------->
-
-## AUTOPSY:
 
 ---
 
@@ -258,20 +165,5 @@ volatility -f <img_ram> --profile=<img_profile> netscan
 
 | [Zip Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip) |
 |-----------|
-
-- ### Autopsy:
-
-| [Tutorial - Autopsy v4.21](https://www.youtube.com/watch?v=DYMG7U7FOPU) |
-|-----------|
-
-1. wget https://raw.githubusercontent.com/sleuthkit/autopsy/develop/linux_macos_install_scripts/install_prereqs_ubuntu.sh
-2. chmod +x install_prereqs_ubuntu.sh
-3. ./install_prereqs_ubuntu.sh
-4. sudo apt update
-5. sudo apt install ./sleuthkit-java_4.12.1-1_amd64.deb
-6. wget https://raw.githubusercontent.com/sleuthkit/autopsy/develop/linux_macos_install_scripts/install_application.sh
-7. chmod +x install_application.sh
-8. ./install_application.sh -z autopsy-4.21.0.zip -i ~/autopsy -j /usr/lib/jvm/java-1.17.0-openjdk-amd64
-9. ./bin/autopsy --nosplash
 
 ---

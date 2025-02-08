@@ -6,14 +6,30 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ## Índice
 1. [Detección de hashes](#hashes)
-2. [Análisis de memoria - Volatility](#volatility)
-3. [Análisis de memoria - Volatility Standalone](#standalone)
-4. [Análisis de discos - Autopsy](#autopsy)
-5. [Descargas](#descargas)
+2. [Memoria - FTK Imager](#ftk-imager)
+3. [Memoria - Volatility](#volatility)
+4. [Memoria - Volatility Standalone](#standalone)
+5. [Discos - Autopsy](#autopsy)
+6. [Descargas](#descargas)
 
 ---
 
 ## Hashes
+
+| Windows |
+|-----------|
+
+- `Get-EventLog`: accede a registros de eventos.
+- `Get-Process:` Lista procesos activos.
+- `Get-Command:` Muestra historial de comandos.
+
+
+| Linux |
+|-----------|
+
+---
+
+## FTK Imager
 
 ---
 

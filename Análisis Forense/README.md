@@ -92,6 +92,11 @@ sudo dd if=/dev/sda of=/home/usuario/disco.img bs=4M
 
 ## HASHES:
 
+- Verificar la integridad del volcado:
+```markdown
+sha256sum /home/usuario/disco.img
+```
+
 ---
 
 ## FTK IMAGER:
@@ -99,6 +104,16 @@ sudo dd if=/dev/sda of=/home/usuario/disco.img bs=4M
 ---
 
 ## VOLATILITY:
+
+- Identificación del Sistema Operativo:
+```markdown
+python3 vol.py -f /home/usuario/memdump.mem imageinfo
+```
+
+- Lista de procesos:
+```markdown
+python3 vol.py -f /home/usuario/memdump.mem --profile=SOversion pslist
+```
 
 ---
 

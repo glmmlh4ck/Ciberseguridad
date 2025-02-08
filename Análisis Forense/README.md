@@ -58,7 +58,7 @@ volatility -f memdump.mem --profile=SOversion netscan
 - ### Volatility:
 [Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s)
 
-| [Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s) | Columna 2 |
+| [Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s) |
 |-----------|-----------|
 
 1. wget ...

@@ -27,7 +27,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ## Standalone
 
-- Identificación del Sistema Operativo:
+- Identificación del Sistema Operativo:&nbsp;
 `volatility -f memdump.mem imageinfo`
 
 - Lista de procesos:

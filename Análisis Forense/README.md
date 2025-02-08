@@ -21,19 +21,16 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 |-----------|
 
 - Procesos activos:
-
 ```markdown
 Get-Process
 ```
 
 - Registros de eventos:
-
 ```markdown
 Get-EventLog
 ```
 
 - Historial de comandos:
-
 ```markdown
 et-Command
 ```
@@ -43,7 +40,6 @@ et-Command
 |-----------|
 
 - Procesos activos:
-
 ```markdown
 ps aux
 ```
@@ -77,13 +73,11 @@ tail -f /var/log/auth.log
 ```
 
 - Capturar memoria RAM:
-
 ```markdown
 sudo insmod lime.ko "path=/home/usuario/LiME/memoria.lime format=lime"
 ```
 
 - Volcado de discos/particiones:
-
 ```markdown
 sudo dd if=/dev/sda of=/home/usuario/disco.img bs=4M
 ```

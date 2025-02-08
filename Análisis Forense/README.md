@@ -1,15 +1,13 @@
 # Análisis Forense
 
-# Guía de Sintaxis Markdown
-
-Esta guía incluye toda la sintaxis de Markdown con descripciones y ejemplos.
+En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ---
 
 ## Índice
-1. [Encabezados](#encabezados)
-2. [Texto en negrita y cursiva](#texto-en-negrita-y-cursiva)
-3. [Listas](#listas)
+1. [Detección de hashes](#hashes)
+2. [Análisis de memoria - Volatility](#volatility)
+3. [Análisis de discos - Autopsy](#autopsy)
 4. [Enlaces e Imágenes](#enlaces-e-imagenes)
 5. [Código](#codigo)
 6. [Citas](#citas)
@@ -18,17 +16,15 @@ Esta guía incluye toda la sintaxis de Markdown con descripciones y ejemplos.
 
 ---
 
-## Encabezados
-Se crean utilizando el símbolo `#`. La cantidad de `#` determina el nivel del encabezado.
-```markdown
-# Encabezado Nivel 1
-## Encabezado Nivel 2
-### Encabezado Nivel 3
-```
-### Resultado:
-# Encabezado Nivel 1
-## Encabezado Nivel 2
-### Encabezado Nivel 3
+## Hashes
+
+---
+
+## Volatility
+
+---
+
+## Autopsy
 
 ---
 

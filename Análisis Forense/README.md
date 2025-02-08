@@ -32,6 +32,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 `volatility -f memdump.mem imageinfo`
 
 - Lista de procesos:
+<br>
 `volatility -f memdump.mem --profile=SOversion pslist`
 
 - Comandos usados en CMD:

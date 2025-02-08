@@ -19,7 +19,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 6. [Autopsy](#autopsy)
 > | DESCARGAS |
 > |-----------|
-7. [Descargas](#descargas)
+7. [Instalación de los programas](#descargas)
 
 <!--------------------------------- ANALISIS PREVIO ----------------------------------------->
 

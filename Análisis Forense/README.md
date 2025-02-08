@@ -138,11 +138,6 @@ sha256sum /home/usuario/disco.img
 sudo insmod lime.ko "path=/home/usuario/LiME/memoria.lime format=lime"
 ```
 
-- Verificar el volcado de la memoria:
-```markdown
-ls /home/usuario/LiME/memoria.lime
-```
-
 ---
 
 <!------------------------------------ VOLATILITY -------------------------------------------->

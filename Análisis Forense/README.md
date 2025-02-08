@@ -20,9 +20,9 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 | Windows |
 |-----------|
 
-- `Get-EventLog` - Registros de eventos.
-- `Get-Process` - Procesos activos.
-- `Get-Command` - Historial de comandos.
+- `Get-EventLog:`  Registros de eventos.
+- `Get-Process:`   Procesos activos.
+- `Get-Command:` - Historial de comandos.
 
 
 | Linux |

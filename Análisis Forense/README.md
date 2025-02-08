@@ -19,8 +19,6 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ## Hashes
 
-> Esto es una cita destacada.
-
 ---
 
 ## Volatility
@@ -28,6 +26,8 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ---
 
 ## Standalone
+
+> Similar a Volatility sin usar python.
 
 - Identificación del Sistema Operativo:
 ```markdown

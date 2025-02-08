@@ -7,10 +7,10 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ## Índice
 1. [Análisis previo](#análisis-previo)
 2. [Detección de hashes](#hashes)
-3. [Memoria - FTK Imager](#ftk-imager)
-4. [Memoria - Volatility](#volatility)
-5. [Memoria - Volatility Standalone](#standalone)
-6. [Discos - Autopsy](#autopsy)
+3. [FTK Imager](#ftk-imager)
+4. [Volatility](#volatility)
+5. [Volatility Standalone](#standalone)
+6. [Autopsy](#autopsy)
 7. [Descargas](#descargas)
 
 ---
@@ -94,6 +94,11 @@ sha256sum /home/usuario/disco.img
 ---
 
 ## FTK IMAGER:
+
+> FTK Imager es una herramienta gratuita de AccessData que permite capturar imágenes
+forenses de discos duros, particiones y la memoria RAM en sistemas Windows. Además, permite
+vericar la integridad de las imágenes mediante hashes MD5 o SHA1.
+
 
 ---
 

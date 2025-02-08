@@ -19,6 +19,8 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ## Hashes
 
+> Esto es una cita destacada.
+
 ---
 
 ## Volatility

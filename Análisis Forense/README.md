@@ -105,7 +105,8 @@ sha256sum /home/usuario/disco.img
 > - Capturar imágenes forenses de discos duros y memoria RAM.
 > - Permite vericar la integridad de las imágenes mediante hashes.
 
-
+> Limitaciones:
+> No realiza análisis forense avanzado; solo crea y examina las imágenes.
 
 ---
 
@@ -160,6 +161,11 @@ volatility -f memdump.mem --profile=SOversion netscan
 <!--------------------------------------- DESCARGAS ------------------------------------------>
 
 ## DESCARGAS:
+
+- ### FTK Imager:
+
+| [Web Oficial - FTK Imager]([https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s](https://www.exterro.com/digital-forensics-software/ftk-imager)) |
+|-----------|
 
 - ### Volatility:
 

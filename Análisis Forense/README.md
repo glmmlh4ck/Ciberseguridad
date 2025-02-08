@@ -29,22 +29,22 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 - Identificación del Sistema Operativo:
 ```markdown
-volatility -f memdump.mem imageinfo`
+volatility -f memdump.mem imageinfo
 ```
 
 - Lista de procesos:
 ```markdown
-`volatility -f memdump.mem --profile=SOversion pslist`
+volatility -f memdump.mem --profile=SOversion pslist
 ```
 
 - Comandos usados en CMD:
 ```markdown
-`volatility -f memdump.mem --profile=SOversion cmdscan`
+volatility -f memdump.mem --profile=SOversion cmdscan
 ```
 
 - Identificación de las conexiones:
 ```markdown
-`volatility -f memdump.mem --profile=SOversion netscan`
+volatility -f memdump.mem --profile=SOversion netscan
 ```
 
 ---

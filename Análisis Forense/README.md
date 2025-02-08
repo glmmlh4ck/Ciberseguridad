@@ -5,39 +5,63 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ---
 
 ## Índice
-1. [Detección de hashes](#hashes)
-2. [Memoria - FTK Imager](#ftk-imager)
-3. [Memoria - Volatility](#volatility)
-4. [Memoria - Volatility Standalone](#standalone)
-5. [Discos - Autopsy](#autopsy)
-6. [Descargas](#descargas)
+1. [Análisis previo](#análisis-previo)
+2. [Detección de hashes](#hashes)
+3. [Memoria - FTK Imager](#ftk-imager)
+4. [Memoria - Volatility](#volatility)
+5. [Memoria - Volatility Standalone](#standalone)
+6. [Discos - Autopsy](#autopsy)
+7. [Descargas](#instalación)
 
 ---
 
-## Hashes
+## ANÁLISIS PREVIO:
 
 | Windows |
 |-----------|
 
-- `Get-EventLog`: accede a registros de eventos.
-- `Get-Process:` Lista procesos activos.
-- `Get-Command:` Muestra historial de comandos.
+- `Get-EventLog:` Registros de eventos.
+- `Get-Process:` Procesos activos.
+- `Get-Command:` Historial de comandos.
 
 
 | Linux |
 |-----------|
 
+- `ps aux OR ps axjf:` Procesos activos.
+- `lsof -i:` Procesos de red escuchando.
+- `ss -tuln:` Conexiones de red activas.
+- `netstat -anp:` Conexiones de red establecidas.
+- `nmap -sS localhost:` Puertos abiertos y cerrados.
+- `tail -f /var/log/auth.log:` Archivos de Log en tiempo real.
+
+- Capturar memoria RAM:
+
+```markdown
+sudo insmod lime.ko "path=/home/usuario/LiME/memoria.lime format=lime"
+```
+
+- Volcado de discos/particiones:
+
+```markdown
+sudo dd if=/dev/sda of=/home/usuario/disco.img bs=4M
+```
+
 ---
 
-## FTK Imager
+## HASHES:
 
 ---
 
-## Volatility
+## FTK IMAGER:
 
 ---
 
-## Standalone
+## VOLATILITY:
+
+---
+
+## STANDALONE:
 
 - Identificación del Sistema Operativo:
 ```markdown
@@ -61,11 +85,11 @@ volatility -f memdump.mem --profile=SOversion netscan
 
 ---
 
-## Autopsy
+## AUTOPSY:
 
 ---
 
-## Descargas
+## INSTALACIÓN:
 
 - ### Volatility:
 

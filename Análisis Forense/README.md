@@ -13,6 +13,8 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 6. [Autopsy](#autopsy)
 7. [Descargas](#descargas)
 
+<!------------------------------- ANALISIS PREVIO -------------------------------------->
+
 ---
 
 ## ANÁLISIS PREVIO:
@@ -96,8 +98,8 @@ sha256sum /home/usuario/disco.img
 ## FTK IMAGER:
 
 > FTK Imager es una herramienta gratuita de AccessData que permite:
-- Capturar imágenes forenses de discos duros y memoria RAM.
-- Permite vericar la integridad de las imágenes mediante hashes.
+> - Capturar imágenes forenses de discos duros y memoria RAM.
+> - Permite vericar la integridad de las imágenes mediante hashes.
 
 
 

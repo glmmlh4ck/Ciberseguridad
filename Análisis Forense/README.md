@@ -14,12 +14,13 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 3. [FTK Imager](#ftk-imager)
 > | LINUX |
 > |-----------|
-4. [Volatility](#volatility)
-5. [Volatility Standalone](#standalone)
-6. [Autopsy](#autopsy)
+4. [LiME](#lime)
+5. [Volatility](#volatility)
+6. [Volatility Standalone](#standalone)
+7. [Autopsy](#autopsy)
 > | DESCARGAS |
 > |-----------|
-7. [Instalación de los programas](#descargas)
+8. [Instalación de los programas](#descargas)
 
 <!--------------------------------- ANALISIS PREVIO ----------------------------------------->
 
@@ -72,19 +73,19 @@ ss -tuln
 netstat -anp
 ```
 
-- Puertos abiertos y cerrados:
+- Escaneo rápido de puertos:
 ```markdown
 nmap -sS localhost
+```
+
+- Puertos detallado de puertos:
+```markdown
+nmap -A localhost
 ```
 
 - Archivos de Log en tiempo real:
 ```markdown
 tail -f /var/log/auth.log
-```
-
-- Capturar memoria RAM:
-```markdown
-sudo insmod lime.ko "path=/home/usuario/LiME/memoria.lime format=lime"
 ```
 
 - Volcado de discos/particiones:
@@ -114,7 +115,7 @@ sha256sum /home/usuario/disco.img
 > - Permite vericar la integridad de las imágenes mediante hashes.
 > - No realiza análisis forense avanzado; solo crea y examina las imágenes.
 
-- Volcado RAM:
+- Capturar memoria RAM:
 ```markdown
 1. Abrir FTK Imager como administrador.
 2. Seleccionar "Capture Memory".
@@ -123,9 +124,33 @@ sha256sum /home/usuario/disco.img
 
 ---
 
+<!---------------------------------------- LiME --------------------------------------------->
+
+## LiME:
+
+> LiME es una herramienta gratuita que permite:
+> - Capturar la memoria RAM en vivo.
+> - El uso de varios formatos de volcado como **raw** o **lime**.
+> - No realiza análisis forense avanzado; solo crea y examina las imágenes.
+
+- Capturar memoria RAM:
+```markdown
+sudo insmod lime.ko "path=/home/usuario/LiME/memoria.lime format=lime"
+```
+
+- Verificar el volcado de la memoria:
+```markdown
+ls /home/usuario/LiME/memoria.lime
+```
+
+---
+
 <!------------------------------------ VOLATILITY -------------------------------------------->
 
 ## VOLATILITY:
+
+> Volatility es una herramienta de análisis forense de memoria que permite examinar
+volcados de RAM.
 
 - Identificación del Sistema Operativo:
 ```markdown
@@ -179,6 +204,13 @@ volatility -f memdump.mem --profile=SOversion netscan
 
 | [Web Oficial - FTK Imager]([https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s](https://www.exterro.com/digital-forensics-software/ftk-imager)) |
 |-----------|
+
+- ### LiME:
+
+1. sudo apt-get install build-essential linux-headers-$(uname -r) git
+2. git clone https://github.com/504ensicsLabs/LiME.git
+3. cd LiME/src
+4. make
 
 - ### Volatility:
 

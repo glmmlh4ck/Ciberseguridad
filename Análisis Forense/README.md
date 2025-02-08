@@ -90,7 +90,7 @@ tail -f /var/log/auth.log
 
 - Volcado de discos/particiones:
 ```markdown
-sudo dd if=/dev/sda of=/home/usuario/disco.img bs=4M
+sudo dd if=/dev/sda of=<ruta_guardar.img> bs=4M
 ```
 
 ---
@@ -101,7 +101,7 @@ sudo dd if=/dev/sda of=/home/usuario/disco.img bs=4M
 
 - Verificar la integridad del volcado:
 ```markdown
-sha256sum /home/usuario/disco.img
+sha256sum <ruta_img>
 ```
 
 ---
@@ -135,7 +135,7 @@ sha256sum /home/usuario/disco.img
 
 - Capturar memoria RAM:
 ```markdown
-sudo insmod lime.ko "path=/home/usuario/LiME/memoria.lime format=lime"
+sudo insmod lime.ko "path=<ruta_guardar.lime> format=lime"
 ```
 
 ---
@@ -149,48 +149,48 @@ volcados de RAM.
 
 - Identificación del Sistema Operativo:
 ```markdown
-python3 vol.py -f memdump.mem imageinfo
+python3 vol.py -f <img_ram> imageinfo
 ```
 
 - Lista de procesos:
 ```markdown
-python3 vol.py -f memdump.mem --profile=SOversion pslist
+python3 vol.py -f <img_ram> --profile=<img_profile> pslist
 ```
 
 - Lista procesos ocultos:
 ```markdown
-python3 vol.py -f memdump.mem --profile=SOversion psscan
+python3 vol.py -f <img_ram> --profile=<img_profile> psscan
 ```
 
 - Lista conexiones de red activas:
 ```markdown
-python3 vol.py -f memdump.mem --profile=SOversion netscan
+python3 vol.py -f <img_ram> --profile=<img_profile> netscan
 ```
 
 - Búsqueda archivos DLL:
 ```markdown
-python3 vol.py -f memdump.mem --profile=SOversion dlllist -p <pid>
+python3 vol.py -f <img_ram> --profile=<img_profile> dlllist -p <pid>
 ```
 
 - Comandos ejecutados via terminal:
 ```markdown
 sudo pip2 install distorm3
-python3 vol.py -f memdump.mem --profile=SOversion cmdscan
+python3 vol.py -f <img_ram> --profile=<img_profile> cmdscan
 ```
 
 - Buscar inyecciones de malware:
 ```markdown
-python3 vol.py -f memdump.mem --profile=SOversion malfind
+python3 vol.py -f <img_ram> --profile=<img_profile> malfind
 ```
 
 - Buscar y extraer archivos abiertos o en uso del volcado de memoria:
 ```markdown
-python3 vol.py -f memdump.mem --profile=SOversion filescan
+python3 vol.py -f <img_ram> --profile=<img_profile> filescan
 ```
 
 - Extraer archivos específicos del volcado de memoria:
 ```markdown
-python3 vol.py -f memdump.mem --profile=SOversion procdump -p <pid> --dumpdir /home/super/extraccion
+python3 vol.py -f <img_ram> --profile=<img_profile> procdump -p <pid> --dumpdir <ruta_guardar>
 ```
 
 ---
@@ -201,22 +201,22 @@ python3 vol.py -f memdump.mem --profile=SOversion procdump -p <pid> --dumpdir /h
 
 - Identificación del Sistema Operativo:
 ```markdown
-volatility -f memdump.mem imageinfo
+volatility -f <img_ram> imageinfo
 ```
 
 - Lista de procesos:
 ```markdown
-volatility -f memdump.mem --profile=SOversion pslist
+volatility -f <img_ram> --profile=<img_profile> pslist
 ```
 
 - Comandos ejecutados via terminal:
 ```markdown
-volatility -f memdump.mem --profile=SOversion cmdscan
+volatility -f <img_ram> --profile=<img_profile> cmdscan
 ```
 
 - Lista conexiones de red activas:
 ```markdown
-volatility -f memdump.mem --profile=SOversion netscan
+volatility -f <img_ram> --profile=<img_profile> netscan
 ```
 
 ---

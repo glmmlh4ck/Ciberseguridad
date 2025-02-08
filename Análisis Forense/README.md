@@ -33,16 +33,19 @@ volatility -f memdump.mem imageinfo`
 ```
 
 - Lista de procesos:
-
+```markdown
 `volatility -f memdump.mem --profile=SOversion pslist`
+```
 
 - Comandos usados en CMD:
-
+```markdown
 `volatility -f memdump.mem --profile=SOversion cmdscan`
+```
 
 - Identificación de las conexiones:
-
+```markdown
 `volatility -f memdump.mem --profile=SOversion netscan`
+```
 
 ---
 

@@ -17,7 +17,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ## ANÁLISIS PREVIO:
 
-| SO Windows |
+| Windows |
 |-----------|
 
 - Procesos activos:
@@ -38,8 +38,8 @@ Get-EventLog
 et-Command
 ```
 
-
-| SO Linux |
+  
+| Linux |
 |-----------|
 
 - Procesos activos:

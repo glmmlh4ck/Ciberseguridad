@@ -27,8 +27,6 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ## Standalone
 
-> Similar a Volatility sin usar python.
-
 - Identificación del Sistema Operativo:
 ```markdown
 volatility -f memdump.mem imageinfo
@@ -57,7 +55,7 @@ volatility -f memdump.mem --profile=SOversion netscan
 
 ## Descargas
 
-### Volatility:
+### - Volatility:
 [Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s)
 
 1. wget ...

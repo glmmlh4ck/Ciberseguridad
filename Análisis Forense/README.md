@@ -31,7 +31,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ## Descargas
 
 ### Volatility:
-[YT - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s)
+[Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s)
 
 1. wget ...
 2. sudo apt install python3
@@ -43,7 +43,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 [Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip)
 
 ### Autopsy:
-[YT - Autopsy v4.21](https://www.youtube.com/watch?v=DYMG7U7FOPU)
+[Tutorial - Autopsy v4.21](https://www.youtube.com/watch?v=DYMG7U7FOPU)
 
 1. wget https://raw.githubusercontent.com/sleuthkit/autopsy/develop/linux_macos_install_scripts/install_prereqs_ubuntu.sh
 2. chmod +x install_prereqs_ubuntu.sh

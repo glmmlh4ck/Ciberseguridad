@@ -1,10 +1,10 @@
-# Análisis Forense
+# ANÁLISIS FORENSE
 
 En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ---
 
-## Índice
+## ÍNDICE:
 1. [Análisis previo](#análisis-previo)
 2. [Detección de hashes](#hashes)
 3. [FTK Imager](#ftk-imager)
@@ -13,7 +13,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 6. [Autopsy](#autopsy)
 7. [Descargas](#descargas)
 
-<!------------------------------- ANALISIS PREVIO -------------------------------------->
+<!--------------------------------- ANALISIS PREVIO ----------------------------------------->
 
 ---
 
@@ -86,6 +86,8 @@ sudo dd if=/dev/sda of=/home/usuario/disco.img bs=4M
 
 ---
 
+<!---------------------------------- USO DE HASHES ----------------------------------------->
+
 ## HASHES:
 
 - Verificar la integridad del volcado:
@@ -94,6 +96,8 @@ sha256sum /home/usuario/disco.img
 ```
 
 ---
+
+<!------------------------------------ FTK IMAGER ------------------------------------------->
 
 ## FTK IMAGER:
 
@@ -104,6 +108,8 @@ sha256sum /home/usuario/disco.img
 
 
 ---
+
+<!------------------------------------ VOLATILITY -------------------------------------------->
 
 ## VOLATILITY:
 
@@ -118,6 +124,8 @@ python3 vol.py -f /home/usuario/memdump.mem --profile=SOversion pslist
 ```
 
 ---
+
+<!------------------------------------- STANDALONE ------------------------------------------->
 
 ## STANDALONE:
 
@@ -143,9 +151,13 @@ volatility -f memdump.mem --profile=SOversion netscan
 
 ---
 
+<!--------------------------------------- AUTOPSY -------------------------------------------->
+
 ## AUTOPSY:
 
 ---
+
+<!--------------------------------------- DESCARGAS ------------------------------------------>
 
 ## DESCARGAS:
 

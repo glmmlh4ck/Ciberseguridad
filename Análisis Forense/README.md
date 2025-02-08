@@ -7,9 +7,9 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ## ÍNDICE:
 1. [Análisis previo](#análisis-previo)
 2. [Detección de hashes](#hashes)
-3. [Programas Windows]
+3. [Programas Windows](#hashes)
 3.1. [FTK Imager](#ftk-imager)
-4. [Programas Linux]
+4. [Programas Linux](#hashes)
 4.1 [Volatility](#volatility)
 4.2 [Volatility Standalone](#standalone)
 4.3 [Autopsy](#autopsy)

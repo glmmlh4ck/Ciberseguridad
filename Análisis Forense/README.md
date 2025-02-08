@@ -20,7 +20,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ## ANÁLISIS PREVIO:
 
 > | WINDOWS |
-|-----------|
+> |-----------|
 
 - Procesos activos:
 ```markdown
@@ -39,7 +39,7 @@ et-Command
 
   
 > | LINUX |
-|-----------|
+> |-----------|
 
 - Procesos activos:
 ```markdown

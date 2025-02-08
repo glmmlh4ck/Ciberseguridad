@@ -17,7 +17,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 
 ## ANÁLISIS PREVIO:
 
-| Windows (10,11) |
+| Windows [10,11] |
 |-----------|
 
 - Procesos activos:
@@ -39,7 +39,7 @@ et-Command
 ```
 
   
-| Linux (Ubuntu, Kali...)|
+| Linux [Ubuntu, Kali...] |
 |-----------|
 
 - Procesos activos:

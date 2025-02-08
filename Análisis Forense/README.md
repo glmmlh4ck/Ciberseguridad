@@ -31,10 +31,10 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 ## Descargas
 
 ### Volatility:
-[Volatility v3]([https://www.google.com](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s))
+[Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s)
 
 ### Volatility Standalone:
-[Standalone 2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip)
+[Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip)
 
 ### Autopsy:
 [Autopsy v4.21](https://www.youtube.com/watch?v=DYMG7U7FOPU)

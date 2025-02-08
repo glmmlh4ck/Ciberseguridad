@@ -28,6 +28,17 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 | Linux |
 |-----------|
 
+- Procesos activos:
+
+```markdown
+ps aux OR ps axjf
+```
+
+- Procesos de red escuchando:
+```markdown
+lsof -i
+```
+
 - `ps aux OR ps axjf:`         Procesos activos.
 - `lsof -i:`                   Procesos de red escuchando.
 - `ss -tuln:`                  Conexiones de red activas.

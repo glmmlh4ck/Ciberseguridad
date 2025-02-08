@@ -21,8 +21,8 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 |-----------|
 
 - `Get-EventLog:` Registros de eventos.
-- `Get-Process:` Procesos activos.
-- `Get-Command:` Historial de comandos.
+- `Get-Process:`  Procesos activos.
+- `Get-Command:`  Historial de comandos.
 
 
 | Linux |

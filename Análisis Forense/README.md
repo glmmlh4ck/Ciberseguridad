@@ -31,13 +31,13 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 `volatility -f memdump.mem imageinfo`
 
 - Lista de procesos:
-`volatility -f memdump.mem --profile=SistemaOperativo pslist`
+`volatility -f memdump.mem --profile=SOversion pslist`
 
 - Comandos usados en CMD:
-`volatility -f memdump.mem --profile=SistemaOperativo cmdscan`
+`volatility -f memdump.mem --profile=SOversion cmdscan`
 
 - Identificación de las conexiones:
-`volatility -f memdump.mem --profile=SistemaOperativo netscan`
+`volatility -f memdump.mem --profile=SOversion netscan`
 
 ---
 

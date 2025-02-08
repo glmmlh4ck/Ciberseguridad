@@ -28,11 +28,11 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 | Linux |
 |-----------|
 
-- `ps aux OR ps axjf:` Procesos activos.
-- `lsof -i:` Procesos de red escuchando.
-- `ss -tuln:` Conexiones de red activas.
-- `netstat -anp:` Conexiones de red establecidas.
-- `nmap -sS localhost:` Puertos abiertos y cerrados.
+- `ps aux OR ps axjf:`         Procesos activos.
+- `lsof -i:`                   Procesos de red escuchando.
+- `ss -tuln:`                  Conexiones de red activas.
+- `netstat -anp:`              Conexiones de red establecidas.
+- `nmap -sS localhost:`        Puertos abiertos y cerrados.
 - `tail -f /var/log/auth.log:` Archivos de Log en tiempo real.
 
 - Capturar memoria RAM:

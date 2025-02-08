@@ -9,11 +9,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 2. [Análisis de memoria - Volatility](#volatility)
 3. [Análisis de memoria - Volatility Standalone](#standalone)
 4. [Análisis de discos - Autopsy](#autopsy)
-5. [Enlaces e Imágenes](#enlaces-e-imagenes)
-6. [Código](#codigo)
-7. [Citas](#citas)
-8. [Tablas](#tablas)
-9. [Descargas](#descargas)
+5. [Descargas](#descargas)
 
 ---
 

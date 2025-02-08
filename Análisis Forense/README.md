@@ -40,7 +40,7 @@ En esta guía encontraremos todos los usos sobre herramientas de forense.
 5. python3 vol.py
 
 ### Volatility Standalone:
-[Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip)
+[Zip Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip)
 
 ### Autopsy:
 [Tutorial - Autopsy v4.21](https://www.youtube.com/watch?v=DYMG7U7FOPU)

@@ -154,12 +154,48 @@ volcados de RAM.
 
 - Identificación del Sistema Operativo:
 ```markdown
-python3 vol.py -f /home/usuario/memdump.mem imageinfo
+python3 vol.py -f memdump.mem imageinfo
 ```
 
 - Lista de procesos:
 ```markdown
-python3 vol.py -f /home/usuario/memdump.mem --profile=SOversion pslist
+python3 vol.py -f memdump.mem --profile=SOversion pslist
+```
+
+- Lista procesos ocultos:
+```markdown
+python3 vol.py -f memdump.mem --profile=SOversion psscan
+```
+
+- Lista conexiones de red activas:
+```markdown
+python3 vol.py -f memdump.mem --profile=SOversion netscan
+```
+
+- Búsqueda archivos DLL:
+```markdown
+python3 vol.py -f memdump.mem --profile=SOversion dlllist -p <pid>
+```
+
+- Comandos ejecutados via terminal:
+```markdown
+sudo pip2 install distorm3
+python3 vol.py -f memdump.mem --profile=SOversion cmdscan
+```
+
+- Buscar inyecciones de malware:
+```markdown
+python3 vol.py -f memdump.mem --profile=SOversion malfind
+```
+
+- Buscar y extraer archivos abiertos o en uso del volcado de memoria:
+```markdown
+python3 vol.py -f memdump.mem --profile=SOversion filescan
+```
+
+- Extraer archivos específicos del volcado de memoria:
+```markdown
+python3 vol.py -f memdump.mem --profile=SOversion procdump -p <pid> --dumpdir /home/super/extraccion
 ```
 
 ---
@@ -178,12 +214,12 @@ volatility -f memdump.mem imageinfo
 volatility -f memdump.mem --profile=SOversion pslist
 ```
 
-- Comandos usados en CMD:
+- Comandos ejecutados via terminal:
 ```markdown
 volatility -f memdump.mem --profile=SOversion cmdscan
 ```
 
-- Identificación de las conexiones:
+- Lista conexiones de red activas:
 ```markdown
 volatility -f memdump.mem --profile=SOversion netscan
 ```

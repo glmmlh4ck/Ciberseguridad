@@ -1,12 +1,10 @@
 # ANÁLISIS FORENSE
 
-En este repositorio encontraremos todos las herramientas que se usan para el análisis forense en sus carpetas correspondientes; así como su análisis previo. 
+> En este repositorio encontraremos todos las herramientas que se usan para el análisis forense en sus carpetas correspondientes; así como su análisis previo. 
 
 ---
 
 ## ÍNDICE:
-> | PREVIA |
-> |-----------|
 1. [Análisis previo](#análisis-previo)
 2. [Detección de hashes](#hashes)
 

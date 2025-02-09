@@ -140,7 +140,7 @@ volatility -f <img_ram> --profile=<img_profile> netscan
 
 - ### FTK Imager:
 
-| [Web Oficial - FTK Imager]([https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s](https://www.exterro.com/digital-forensics-software/ftk-imager)) |
+| [Web Oficial - FTK Imager](https://www.exterro.com/digital-forensics-software/ftk-imager) |
 |-----------|
 
 - ### LiME:

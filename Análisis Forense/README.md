@@ -94,6 +94,4 @@ sha256sum <ruta_img>
 
 ---
 
-
-
 ---

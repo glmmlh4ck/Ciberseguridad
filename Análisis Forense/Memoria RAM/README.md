@@ -155,7 +155,7 @@ volatility -f <img_ram> --profile=<img_profile> netscan
 | [Tutorial - Volatility v3](https://www.youtube.com/watch?v=HKRZohqJEMM&t=160s) |
 |-----------|
 
-1. [wget ...](https://codeload.github.com/volatilityfoundation/volatility3/zip/refs/tags/v2.8.0)
+1. [Zip Volatility3 v2.8](https://codeload.github.com/volatilityfoundation/volatility3/zip/refs/tags/v2.8.0)
 2. sudo apt install python3
 3. sudo apt install python3-pip python-setuptools build-essential
 4. sudo python3 setup.py install

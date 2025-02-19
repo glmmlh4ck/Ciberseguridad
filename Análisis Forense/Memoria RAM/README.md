@@ -166,26 +166,26 @@ volatility -f <img_ram> --profile=<img_profile> netscan
 | [Zip Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip) |
 |-----------|
 
+
+1. Descomprimimos el fichero:
 ```markdown
 unzip volatility_2.6_lin64_standalone.zip
 ```
+2. Le cambiamos el nombre a la carpeta:
 ```markdown
 mv volatility_2.6_lin64_standalone volatility_standalone
 ```
+3. Nos movemos dentro de la carpeta:
 ```markdown
 cd volatility_standalone
 ```
+4. Le cambiamos el nombre al ejecutable:
 ```markdown
 mv volatility_2.6_lin64_standalone volatility
 ```
+5. Comprobamos si funciona:
 ```markdown
 ./volatility -h
 ```
-
-1. unzip volatility_2.6_lin64_standalone.zip
-2. mv volatility_2.6_lin64_standalone volatility_standalone
-3. cd volatility_standalone
-4. mv volatility_2.6_lin64_standalone volatility
-5. ./volatility -h
 
 ---

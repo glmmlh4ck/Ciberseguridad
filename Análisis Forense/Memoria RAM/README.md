@@ -166,4 +166,26 @@ volatility -f <img_ram> --profile=<img_profile> netscan
 | [Zip Standalone v2.6](http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip) |
 |-----------|
 
+```markdown
+unzip volatility_2.6_lin64_standalone.zip
+```
+```markdown
+mv volatility_2.6_lin64_standalone volatility_standalone
+```
+```markdown
+cd volatility_standalone
+```
+```markdown
+mv volatility_2.6_lin64_standalone volatility
+```
+```markdown
+./volatility -h
+```
+
+1. unzip volatility_2.6_lin64_standalone.zip
+2. mv volatility_2.6_lin64_standalone volatility_standalone
+3. cd volatility_standalone
+4. mv volatility_2.6_lin64_standalone volatility
+5. ./volatility -h
+
 ---

@@ -183,7 +183,7 @@ cd volatility_standalone
 ```markdown
 mv volatility_2.6_lin64_standalone volatility
 ```
-5. Comprobamos si funciona:
+5. Verificamos su funcionamiento:
 ```markdown
 ./volatility -h
 ```

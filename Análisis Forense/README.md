@@ -1,6 +1,3 @@
-![Captura de pantalla 2025-02-18 200453](https://github.com/user-attachments/assets/5170f4db-9db9-4ecf-884a-621f81d1f42d)
-
-
 # ANÁLISIS FORENSE
 
 > En este repositorio encontraremos todos las herramientas que se usan para el análisis forense en sus carpetas correspondientes; así como su análisis previo. 
